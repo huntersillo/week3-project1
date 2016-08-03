@@ -1,33 +1,46 @@
 /*
-=======================================================
-
 ** Week 3 - Project 1 **
 *** Function Exercises ***
-
 Below are a number of problems for you to solve
 using JS. The JS code can be written below each
 problem and the result can be logged to the console.
-
 In order to make the results easy to read,
 please use console.log("Question #") to declare the
 problem number being solved followed by console.log(yourAnswer) after each question.
-
 For any methods that we didn't cover, please refer to the Functions Documentation.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
-
 BASIC TRACK: 1-10
 ADVANCED TRACK: 11-15
 =======================================================
 */
 
 // 1. Define a function called "divideByTwo". It should accept one parameter called "number".
-//    The function should divide the number by two and output the answer.
+//    The function should divide the number by two and output the answ
 
+
+function divideByTwo(number) {
+	return number / 2;
+}
+
+console.log( divideByTwo(6) );
+
+// Placed after
 // 2. Define a function called "greeting". It should accept two parameters, which will be names.
 //    The function should output the a greeting to both people.
+function greeting(name1,name2){
+	console.log("hello " + name1 + " and " + name2);
+}
+
+greeting("julio","juan");
 
 // 3. You use Amazon Subscribe & Save to have six cans of cashews automatically sent to you each month, but the price keeps changing.
 //    Write a function that takes the price per unit and calculates the total for you each month.
+function cost(price) {
+	return  price * 6;
+}
+
+console.log( cost(5)  )
+
 
 // 4. Write a function that accepts the following array and separates the people into two teams.
 //    No names next to eachother in the array should be on the same team.
