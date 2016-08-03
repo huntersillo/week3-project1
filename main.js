@@ -19,7 +19,7 @@ ADVANCED TRACK: 11-15
 
 
 function divideByTwo(number) {
-	return number % 2 === 0;
+	return number / 2;
 }
 
 console.log( divideByTwo(6) );
